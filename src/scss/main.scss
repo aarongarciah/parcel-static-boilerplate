@@ -1,0 +1,31 @@
+@import 'node_modules/sass-mq/mq';
+@import 'node_modules/modern-normalize/modern-normalize';
+@import 'breakpoints';
+
+body {
+  color: #fff;
+  background-color: #333;
+
+  @include mq($from: tablet) {
+    color: #333;
+    background-color: #fff;
+  }
+}
+
+header {
+  padding: 1rem 2rem;
+  background-color: #ddd;
+}
+
+main {
+  padding: 2rem;
+}
+
+footer {
+  padding: 1rem 2rem;
+  background-color: #ddd;
+
+  p {
+    margin: 0;
+  }
+}

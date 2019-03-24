@@ -1,0 +1,9 @@
+<section class="speakers nrdbb pt-header-height pb-header-height" id="speakers">
+  <div class="container">
+    <h2>Speakers</h2>
+
+    {% for speaker in speakers %}
+      {% include "html/partials/_speaker.njk" %}
+    {% endfor %}
+  </div>
+</section>

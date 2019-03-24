@@ -1,0 +1,20 @@
+$bkp-mobile: 320px;
+$bkp-phablet: 600px;
+$bkp-tablet: 740px;
+$bkp-desktop: 980px;
+$bkp-wide: 1280px;
+$bkp-ultra-wide: 1920px;
+
+$breakpoints: (
+  mobile: $bkp-mobile,
+  tablet: $bkp-tablet,
+  phablet: $bkp-phablet,
+  desktop: $bkp-desktop,
+  wide: $bkp-wide,
+  ultra-wide: $bkp-ultra-wide,
+);
+
+/* Override sass-mq breakpoints with our custom breakpoints */
+$mq-breakpoints: $breakpoints !default;
+
+// $mq-show-breakpoints: (mobile, tablet, desktop, wide);

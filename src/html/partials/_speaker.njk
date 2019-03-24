@@ -1,0 +1,15 @@
+<article id="{{speaker.id}}">
+  <h3>{{speaker.name}}</h3>
+  <p>{{speaker.description}}</p>
+  <p>
+    {% if speaker.links.twitter %}
+      <a href="{{speaker.links.twitter}}" target="_blank" rel="noopener">twitter</a>
+    {% endif %}
+    {% if speaker.links.github %}
+      <a href="{{speaker.links.github}}" target="_blank" rel="noopener">github</a>
+    {% endif %}
+    {% if speaker.links.website %}
+      <a href="{{speaker.links.website}}" target="_blank" rel="noopener">website</a>
+    {% endif %}
+  </p>
+</article>

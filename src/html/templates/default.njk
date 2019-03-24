@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <!-- Metas -->
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>{% block documentTitle %}{% endblock %} | 📦 Parcel Easy Boilerplate ✨</title>
+    <meta name="description" content="Parcel Easy Boilerplate let's you start coding in a few minutes thanks to the magic of Parcel." />
+    <meta name="image" content="static/parcel-easy-boilerplate.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="author" content="Aarón García Hervás, @aarongarciah, https://aarongarciah.com" />
+
+    <!-- Favicons, webmanifest -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./static/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./static/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./static/favicon-16x16.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+    <link rel="mask-icon" href="./static/safari-pinned-tab.svg" color="#26a070" />
+    <link rel="shortcut icon" href="./static/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-config" content="./static/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="Parcel Easy Boilerplate" />
+    <meta
+      itemprop="description"
+      content="Parcel Easy Boilerplate let's you start coding in a few minutes thanks to the magic of Parcel"
+    />
+    <meta itemprop="image" content="./static/parcel-easy-boilerplate.jpg" />
+
+    <!-- Open Graph general -->
+    <meta property="og:title" content="Parcel Easy Boilerplate" />
+    <meta property="og:description" content="Parcel Easy Boilerplate let's you start coding in a few minutes thanks to the magic of Parcel" />
+    <meta property="og:image" content="./static/parcel-easy-boilerplate.jpg" />
+    <meta property="og:image:alt" content="Parcel Easy Boilerplate logo" />
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="https://github.com/aarongarciah/parcel-easy-boilerplate/" />
+    <meta property="og:site_name" content="Parcel Easy Boilerplate" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Parcel Easy Boilerplate" />
+    <meta name="twitter:description" content="Parcel Easy Boilerplate let's you start coding in a few minutes thanks to the magic of Parcel"
+    />
+    <meta name="twitter:site" content="@aarongarciah" />
+    <meta name="twitter:creator" content="@aarongarciah" />
+    <meta name="twitter:image" content="./static/parcel-easy-boilerplate-twitter.jpg" />
+    <meta name="twitter:image:alt" content="Parcel Easy Boilerplate logo" />
+
+    <!-- preconnect, preload, etc. -->
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./scss/main.scss" />
+  </head>
+
+  <body class="{% block bodyClass %}{% endblock %}">
+    {% include "html/partials/_header.njk" %}
+
+    <main class="main">
+      {% block content %}{% endblock %}
+    </main>
+
+    {% include "html/partials/_footer.njk" %}
+
+    <!-- Scripts -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+{% extends "html/templates/default.njk" %}
+
+{% block documentTitle %}Home{% endblock %}
+
+{% block content %}
+  <p>Parcel Easy Boilerplate let's you start coding in a few minutes thanks to the magic of Parcel.</p>
+
+  <br />
+
+  <p>👇 This is an example on using Nunjucks to iterate over an array of data from the file `/data/data.json`</p>
+
+  {% include "html/partials/_speakers.njk" %}
+{% endblock %}
