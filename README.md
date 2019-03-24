@@ -16,7 +16,7 @@ Simple starter to start writing HTML, JS, and SCSS right away with no additional
    npm install
    ```
 
-3. **Run** dev mode. It will open a browser tab with the dev url `http://localhost:1234/`.
+3. **Run** dev mode. It will open a browser tab with the dev url [`http://localhost:1234/`](http://localhost:1234/).
 
    ```
    npm run dev
@@ -32,7 +32,7 @@ npm run build
 
 ## Serve production build locally
 
-If you want to serve your production build (the generated `/dist` folder) locally just run this command and open `http://localhost:5000/` in your browsers. This command runs the `npm run build` command before serving the `/dist` folder.
+If you want to serve your production build (the generated `/dist` folder) locally just run this command and open [`http://localhost:5000/`](http://localhost:5000/) in your browser. This command runs the `npm run build` command before serving the `/dist` folder.
 
 ```
 npm run serve
