@@ -40,26 +40,6 @@
         "github": "https://github.com/alanschmidt",
         "website": "https://alanschmidt.com"
       }
-    },
-    {
-      "id": "clinton–schwartz",
-      "name": "Clinton Schwartz",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend non leo a varius. Maecenas viverra ligula dui, eget cursus tellus rutrum non. Duis in pharetra sem, sit amet finibus mauris. In hac habitasse platea dictumst. Sed maximus velit ac arcu posuere venenatis. Nulla molestie fringilla nunc eget facilisis. Phasellus porttitor risus nec accumsan mattis.",
-      "links": {
-        "twitter": "https://twitter.com/clintonschwartz",
-        "github": "https://github.com/clintonschwartz",
-        "website": "https://clintonschwartz.com"
-      }
-    },
-    {
-      "id": "lowell-rose",
-      "name": "Lowell Rose",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend non leo a varius. Maecenas viverra ligula dui, eget cursus tellus rutrum non. Duis in pharetra sem, sit amet finibus mauris. In hac habitasse platea dictumst. Sed maximus velit ac arcu posuere venenatis. Nulla molestie fringilla nunc eget facilisis. Phasellus porttitor risus nec accumsan mattis.",
-      "links": {
-        "twitter": "https://twitter.com/lowellrose",
-        "github": "https://github.com/lowellrose",
-        "website": "https://lowellrose.com"
-      }
     }
   ]
 }
