@@ -22,7 +22,7 @@ Simple starter to start writing HTML, JS, and SCSS right away with no additional
    npm run dev
    ```
 
-## Production
+## Production build
 
 Run the build script and the optimized for production website will be generated in the `/dist` folder.
 
@@ -30,9 +30,9 @@ Run the build script and the optimized for production website will be generated 
 npm run build
 ```
 
-## Serve production website locally
+## Serve production build locally
 
-If you want to serve your production build (the generated `/dist` folder) locally just run the command and open `http://localhost:5000/` in your browsers. This commands
+If you want to serve your production build (the generated `/dist` folder) locally just run this command and open `http://localhost:5000/` in your browsers. This command runs the `npm run build` command before serving the `/dist` folder.
 
 ```
 npm run serve
