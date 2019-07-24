@@ -4,9 +4,9 @@
   "description": "Parcel Easy Boilerplate",
   "main": "src/index.njk",
   "scripts": {
-    "dev": "NODE_ENV=development parcel src/index.njk --open",
-    "prebuild": "NODE_ENV=production rimraf dist/* && npm run validate",
-    "build": "NODE_ENV=production parcel build src/index.njk --no-cache",
+    "dev": "cross-env NODE_ENV=development parcel src/index.njk --open",
+    "prebuild": "cross-env NODE_ENV=production rimraf dist/* && npm run validate",
+    "build": "cross-env NODE_ENV=production parcel build src/index.njk --no-cache",
     "preserve": "npm run build",
     "serve": "npx serve dist",
     "lint": "npm run lint:js && npm run lint:css",
@@ -15,7 +15,7 @@
     "prettier": "prettier \"src/**/*.+(js|html|css|scss|json|md|yml|yaml|md)\"",
     "format": "npm run prettier -- --write",
     "validate": "npm run lint && npm run prettier -- --list-different",
-    "test": "echo 'no tests found'"
+    "test": "npm run build && (test -e dist/index.html && exit 0 || exit 1)"
   },
   "repository": {
     "type": "git",
@@ -33,6 +33,7 @@
   "homepage": "https://github.com/aarongarciah/parcel-easy-boilerplate/",
   "devDependencies": {
     "autoprefixer": "^9.6.0",
+    "cross-env": "^5.2.0",
     "eslint": "^6.1.0",
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-prettier": "^3.1.0",
