@@ -1,5 +1,7 @@
 # Parcel Easy Boilerplate
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/aarongarciah/parcel-easy-boilerplate.svg)](https://greenkeeper.io/)
+
 Simple starter to start writing HTML, JS, and SCSS right away with no additional config. Can be used as a static site generator!
 
 ## Development
