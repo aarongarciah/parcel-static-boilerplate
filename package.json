@@ -50,7 +50,7 @@
     "sass": "^1.21.0",
     "sass-mq": "^5.0.0",
     "stylelint": "^11.0.0",
-    "stylelint-config-recommended-scss": "^3.3.0",
+    "stylelint-config-recommended-scss": "^4.0.0",
     "stylelint-scss": "^3.8.0"
   }
 }
