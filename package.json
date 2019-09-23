@@ -33,7 +33,7 @@
   "homepage": "https://github.com/aarongarciah/parcel-easy-boilerplate/",
   "devDependencies": {
     "autoprefixer": "^9.6.0",
-    "cross-env": "^5.2.0",
+    "cross-env": "^6.0.0",
     "eslint": "^6.1.0",
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-prettier": "^3.1.0",
