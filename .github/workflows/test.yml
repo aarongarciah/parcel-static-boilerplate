@@ -16,14 +16,14 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Build project
-        run: npm build
+        run: npm run build
       - name: Print dist folder
         run: ls -la dist
       - name: Upload artifact
         uses: actions/upload-artifact@v1.0.0
         with:
           name: dist folder
-          path: /dist
+          path: ./dist
 
   test:
     needs: build
