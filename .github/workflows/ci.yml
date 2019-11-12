@@ -17,10 +17,10 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Install dependencies
-        run: node -v && npm -v && npm ci
+        run: npm ci
       - name: Build
-        run: npm run build && ls -la dist
-      - name: Upload artifact (dist folder)
+        run: npm run build
+      - name: Upload artifact
         uses: actions/upload-artifact@v1.0.0
         with:
           name: dist
