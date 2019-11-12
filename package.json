@@ -15,7 +15,7 @@
     "prettier": "prettier \"src/**/*.+(js|html|css|scss|json|md|yml|yaml|md)\"",
     "format": "npm run prettier -- --write",
     "validate": "npm run lint && npm run prettier -- --list-different",
-    "test": "npm run build && (test -e dist/index.html && exit 0 || exit 1)"
+    "test": "test -e dist/index.html && exit 0 || exit 1"
   },
   "repository": {
     "type": "git",
@@ -32,25 +32,25 @@
   },
   "homepage": "https://github.com/aarongarciah/parcel-easy-boilerplate/",
   "devDependencies": {
-    "autoprefixer": "^9.6.0",
-    "cross-env": "^6.0.0",
-    "eslint": "^6.1.0",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-prettier": "^3.1.0",
-    "husky": "^3.0.1",
-    "lint-staged": "^9.2.0",
+    "cross-env": "^6.0.3",
+    "autoprefixer": "^9.7.1",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.2",
     "modern-normalize": "^0.5.0",
     "nunjucks": "^3.2.0",
     "parcel-bundler": "^1.12.4",
     "parcel-plugin-imagemin": "^3.0.0",
-    "parcel-plugin-nunjucks": "^2.0.0",
-    "parcel-plugin-static-files-copy": "^2.1.2",
+    "parcel-plugin-nunjucks": "^2.2.0",
+    "parcel-plugin-static-files-copy": "^2.2.1",
     "prettier": "1.19.1",
     "rimraf": "^3.0.0",
-    "sass": "^1.21.0",
-    "sass-mq": "^5.0.0",
-    "stylelint": "^11.0.0",
+    "sass": "^1.23.3",
+    "sass-mq": "^5.0.1",
+    "stylelint": "^11.1.1",
     "stylelint-config-recommended-scss": "^4.0.0",
-    "stylelint-scss": "^3.8.0"
+    "stylelint-scss": "^3.12.1"
   }
 }
