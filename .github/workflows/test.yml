@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: test
-      run: npm run test
+      run: npm ci && npm run test
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
       with:
