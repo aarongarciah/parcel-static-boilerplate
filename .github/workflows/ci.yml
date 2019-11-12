@@ -5,23 +5,17 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v1
       - name: Install dependencies
         run: node -v && npm -v && npm ci
       - name: Build project
-        run: npm run build
-      - name: Print dist folder
-        run: ls -la dist
+        run: npm run build && ls -la dist
       - name: Upload artifact
         uses: actions/upload-artifact@v1.0.0
         with:
           name: dist folder
           path: ./dist
-
-  test:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
       - name: Test
         run: npm run test
