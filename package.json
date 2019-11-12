@@ -15,7 +15,7 @@
     "prettier": "prettier \"src/**/*.+(js|html|css|scss|json|md|yml|yaml|md)\"",
     "format": "npm run prettier -- --write",
     "validate": "npm run lint && npm run prettier -- --list-different",
-    "test": "npm run build && (test -e dist/index.html && exit 0 || exit 1)"
+    "test": "test -e dist/index.html && exit 0 || exit 1"
   },
   "repository": {
     "type": "git",
