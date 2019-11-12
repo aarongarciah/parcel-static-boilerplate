@@ -4,9 +4,9 @@
   "description": "Parcel Easy Boilerplate",
   "main": "src/index.njk",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development parcel src/index.njk --open",
-    "prebuild": "cross-env NODE_ENV=production rimraf dist/* && npm run lint",
-    "build": "cross-env NODE_ENV=production parcel build src/index.njk --no-cache",
+    "dev": "parcel src/index.njk --open",
+    "prebuild": "rimraf dist/* && npm run lint",
+    "build": "parcel build src/index.njk --no-cache",
     "preserve": "npm run build",
     "serve": "npx serve dist",
     "lint": "npm run lint:js && npm run lint:css",
