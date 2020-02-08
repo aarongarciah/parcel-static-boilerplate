@@ -49,7 +49,7 @@
     "rimraf": "^3.0.0",
     "sass": "^1.23.6",
     "sass-mq": "^5.0.1",
-    "stylelint": "^12.0.0",
+    "stylelint": "^13.1.0",
     "stylelint-config-recommended-scss": "^4.0.0",
     "stylelint-scss": "^3.12.1"
   }
