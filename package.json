@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/aarongarciah/parcel-easy-boilerplate/",
   "devDependencies": {
-    "cross-env": "^7.0.1",
+    "cross-env": "^7.0.2",
     "autoprefixer": "^9.7.4",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.0",
@@ -47,9 +47,9 @@
     "parcel-plugin-static-files-copy": "^2.3.1",
     "prettier": "1.19.1",
     "rimraf": "^3.0.2",
-    "sass": "^1.26.2",
+    "sass": "^1.26.3",
     "sass-mq": "^5.0.1",
-    "stylelint": "^13.2.0",
+    "stylelint": "^13.2.1",
     "stylelint-config-recommended-scss": "^4.2.0",
     "stylelint-scss": "^3.14.2"
   }
