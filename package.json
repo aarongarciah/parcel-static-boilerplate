@@ -1,7 +1,7 @@
 {
-  "name": "parcel-easy-boilerplate",
+  "name": "parcel-static-boilerplate",
   "version": "1.0.0",
-  "description": "Parcel Easy Boilerplate",
+  "description": "Parcel Static Boilerplate",
   "main": "src/index.njk",
   "scripts": {
     "dev": "cross-env NODE_ENV=development parcel src/index.njk --open",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aarongarciah/parcel-easy-boilerplate.git"
+    "url": "git+https://github.com/aarongarciah/parcel-static-boilerplate.git"
   },
   "keywords": [
     "parcel",
@@ -33,9 +33,9 @@
   "author": "Aarón García Hervás <aarongarciahervas@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aarongarciah/parcel-easy-boilerplate/issues"
+    "url": "https://github.com/aarongarciah/parcel-static-boilerplate/issues"
   },
-  "homepage": "https://github.com/aarongarciah/parcel-easy-boilerplate/",
+  "homepage": "https://github.com/aarongarciah/parcel-static-boilerplate/",
   "devDependencies": {
     "cross-env": "^7.0.2",
     "autoprefixer": "^9.7.5",

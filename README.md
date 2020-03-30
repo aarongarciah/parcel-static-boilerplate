@@ -1,16 +1,16 @@
-# Parcel Easy Boilerplate
+# Parcel Static Boilerplate
 
-[![Actions Status](https://github.com/aarongarciah/parcel-easy-boilerplate/workflows/CI/badge.svg)](https://github.com/aarongarciah/parcel-easy-boilerplate/actions)
-[![Greenkeeper badge](https://badges.greenkeeper.io/aarongarciah/parcel-easy-boilerplate.svg)](https://greenkeeper.io/)
+[![Actions Status](https://github.com/aarongarciah/parcel-static-boilerplate/workflows/CI/badge.svg)](https://github.com/aarongarciah/parcel-static-boilerplate/actions)
+[![Greenkeeper badge](https://badges.greenkeeper.io/aarongarciah/parcel-static-boilerplate.svg)](https://greenkeeper.io/)
 
 Simple starter to start writing HTML, JS, and SCSS right away with no additional config. Can be used as a static site generator!
 
 ## Development
 
-1. **Clone** or [download](https://github.com/aarongarciah/parcel-easy-boilerplate/archive/master.zip) this repository.
+1. **Clone** or [download](https://github.com/aarongarciah/parcel-static-boilerplate/archive/master.zip) this repository.
 
    ```
-   git clone https://github.com/aarongarciah/parcel-easy-boilerplate.git
+   git clone https://github.com/aarongarciah/parcel-static-boilerplate.git
    ```
 
 2. **Install** dependencies.
