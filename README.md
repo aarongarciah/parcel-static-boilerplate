@@ -2,6 +2,7 @@
 
 [![Actions Status](https://github.com/aarongarciah/parcel-static-boilerplate/workflows/CI/badge.svg)](https://github.com/aarongarciah/parcel-static-boilerplate/actions)
 [![Known Vulnerabilities](https://snyk.io/test/github/aarongarciah/parcel-static-boilerplate/badge.svg?targetFile=package.json)](https://snyk.io/test/github/aarongarciah/parcel-static-boilerplate?targetFile=package.json)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b634f3a6-0192-4258-8e27-54fa8a6d1e67/deploy-status)](https://app.netlify.com/sites/parcel-static-boilerplate/deploys)
 
 Simple starter to start writing HTML, JS, and SCSS right away with no additional config. Can be used as a static site generator!
 
