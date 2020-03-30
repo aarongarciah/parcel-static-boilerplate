@@ -3,12 +3,11 @@
 @import 'breakpoints';
 
 body {
-  color: #fff;
-  background-color: #333;
+  font-size: 1rem;
+  color: #333;
 
   @include mq($from: tablet) {
-    color: #333;
-    background-color: #fff;
+    font-size: 1.2rem;
   }
 }
 
