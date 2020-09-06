@@ -3,8 +3,7 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "extends": ["eslint:recommended"],
-  "plugins": ["prettier"],
+  "extends": ["plugin:prettier/recommended"],
   "rules": {
     "no-console": "off",
     "no-process-env": "off"
